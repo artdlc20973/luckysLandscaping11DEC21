@@ -1,0 +1,92 @@
+@import url('https:fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1494187570835-b188e7f0f26e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.9em;
+    font-weight: bold;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    padding: .5em;
+    color: #37ff41;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    margin-right: 1em;
+    padding: .5em;
+    font-size: 1.3em;
+    color: #37ff41;
+}
+
+.nav li a:hover {
+    color: #53baff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+h1 {
+    color: #53baff;
+    font-size: 3em;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+p {
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    color: #37ff41;
+    word-spacing: 3px;
+}
+
+button {
+    padding: 10px 45px;
+    background: #37ff41;
+    color: #000;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.9em;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+button:hover {
+    background: #53baff;
+    color: #fff;
+}
